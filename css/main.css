@@ -1,0 +1,399 @@
+@import 'menu.css';
+
+/* ***************************************************************************
+
+Desenvolvedor: Emmanuel de Freitas Soares
+
+*************************************************************************** */
+
+/*
+*
+* Divisão de código
+*
+*/ 
+
+/* CSS RESET ************************************************************** */
+*, html, body, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt,  dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td  { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font-family: inherit; font-style:normal; border-spacing: 0; vertical-align: baseline; background: transparent; }
+
+a, a:link, a:visited, a:hover, a:active{ text-decoration:none; }
+
+img, iframe {display:block; border: none; text-decoration:none;} 
+ 
+:focus { outline: 0 }
+
+ol, ul  { list-style: none }
+
+li span { padding:0 5px; }
+
+table { border-collapse: separate;border-spacing: 0;}
+
+th, td, caption {text-align: left; font-weight: normal;}
+
+input, textarea, select, button {font-size: 100%;font-family: inherit;}
+
+select {margin: inherit;}
+
+hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
+
+lockquote:before, blockquote:after, q:before, q:after {	content: "" }
+
+blockquote, q  { quotes: "" "" }
+
+fon
+ins { text-decoration: none; }
+ 
+del { text-decoration: line-through; }
+
+* { font-family: Arial, Helvetica, sans-serif; color:#666;}	
+
+body { background-color: #FFF; font-size:12px; background-image: url(../imagens/background3.png); background-repeat: no-repeat;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%; }
+
+h1, h2, h3, h4, h5, h6{font-size:100%; } 
+
+html>body { font-weight: normal; font-style: normal; line-height:normal; }
+
+/* /CSS RESET ************************************************************** */
+/*
+* 
+* Divisão de código
+*
+*/
+/* LAYOUT ************************************************************** */
+h1						{ font-size:38px; font-weight:bold; color:#F86617; font-family: "Courgette", cursive, arial; }
+.h1_2					{ font-size:24px; margin-top:10px; margin-left:80px; float:left;}
+h2						{ font-size:28px; color:#F86617; font-family: "Courgette", cursive, arial;}
+h3						{ font-size:14px; } 
+h4						{ font-size:16px; color:#FFF } 
+.hover					{ text-decoration:underline;}
+.embratel				{ font-size:16px; color:#20609f;}
+.espaco_interno 		{ padding:0px; }
+.cor_lilas				{ color:#F86617;}
+.cor_clara      		{ color:#CCC; }
+.cor_escura     		{ color:#999; }
+.txt_topo_rapido		{ color:#666666; font-size:100%; font-weight:bold; }
+.lh           			{ background-color:#666; height:1px; font-size:1px; }
+.linha					{ width:100%; height:1px; border-bottom:#CCCCCC dashed 1px;}
+.float_left     		{ float:left;  display: inline; }
+.float_right    		{ float:right; display: inline; }
+.clear		    		{ clear:both;  font-size:0px; }
+hr { background-color:#ccc;}
+.alturaMinima   		{ min-height:380px; height:380px; } /* All Browser's */
+html>body .alturaMinima	{ height: auto; }/* Hack IE */
+
+.alturaMinima2   		{ min-height:300px; height:300px; } /* All Browser's */
+.larguraMinima   		{ min-width:150px; width:150px; } /* All Browser's */
+html>body .larguraMinima{ width: auto; }/* Hack IE */
+
+@font-face {
+    font-family: 'cac_pinaforeregular';
+    src: url('../font/cacpinaf_0.eot');
+    src: url('../font/cacpinaf_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/cacpinaf_0.woff') format('woff'),
+         url('../font/cacpinaf_0.ttf') format('truetype'),
+         url('../font/cacpinaf_0.svg#cac_pinaforeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+/* auto ajusto na tela  */
+#geral	 							{ width:100%; height:100%; }
+#content 							{ width:960px; }
+#setinha_voltar 					{ width:48px; height:48px; background-image:url(../imagens/setinha_voltar.png); }
+
+/* Herança da estrutura principal do site  */
+#conteudo_topo, #conteudo, #conteudo_rodape { width:960px; margin:0 auto; }
+
+/* Divs com dependencias de Heranças na estrutura do skin */
+#topo										{ height:147px; border-top:5px solid #0066CC; }
+#informacoes								{ margin-top:15px; margin-right:10px; }
+#logo 										{ margin:15px 0 0 0; }
+
+#menuH ul 									{ margin:28px 0; }
+#menuH ul li 								{ float:left; }
+#menuH ul li a  							{ float:left; color:#666666; font-size:13px; font-family:'Trebuchet Ms'; padding:8px 15px; margin-left:1px; border-radius:1.2em; height: 18px; -webkit-border-radius:1.2em; -moz-border-radius:1.2em; }
+#menuH ul li a:hover, #menuH ul li a.hover	{ height:20px; color:#FFF; background-color:#CC6633; }
+
+
+div#menuH li:hover>ul {
+    left: -2px;
+}
+div#menuH li div {
+    list-style: none;
+    float: left;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 208px;
+    z-index: 11;
+    visibility: hidden;
+    padding: 0 0 9px 18px;
+    _padding: 0 0 9px 3px;
+    margin: 0 0 0 -9px;
+}
+div#menuH li:hover>div {
+    visibility: visible;
+}
+div#menuH ul ul a span {
+	padding: 0 10px 0px 10px;
+    line-height: 20px;
+    color: #666666;
+    font-weight:normal;
+    text-transform: none;
+    background:none;}
+
+
+/* Menu */
+.pagInicial   		   	{ height:34px; }
+.quemsomos 				{ height:34px; }
+.campanhas             	{ height:34px; }
+.comoajudar 			{ height:34px; }
+.palavra_presidente	   	{ height:34px; }
+.contato	   			{ height:34px; }
+.equipe		   			{ height:34px; }
+/* /Menu */
+
+/* conteudo principal */
+#img_banner								{ width:470px; height:326px; margin:30px 20px 0 0; }
+#projeto_lar							{ margin:30px 0 0 0; }
+
+#intro h1								{ margin-top:12px; font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; }
+#intro p								{ margin:10px 0; text-align:justify; line-height:18px; width:440px; }
+#projeto_lar a							{ margin:10px 0; color:#000066; }
+#projeto_lar a:hover					{ text-decoration:underline; }
+#destaque 								{ height:250px; border-top:1px solid #ccc; margin-top:30px; }
+#destaque h2 							{ font-family: "Courgette", cursive; font-size:22px; color:#666666; }
+.eventos, .eventos_depoimentos 			{ width:260px; margin-top:20px; margin-left:20px; }
+.eventos h3, ul 						{ margin-top:10px; margin-bottom:10px; }
+.eventos, .eventos_depoimentos ul li  	{ text-align:justify;  }
+.eventos ul li a:hover 					{ text-decoration:underline; }
+
+#video_principal { border:7px solid #333; }
+#video_miniatura { border:5px solid #333; }
+
+.eventos span a { color:#F86617; }
+.eventos span a:hover { font-weight:bold; text-decoration:underline; }
+
+.eventos_depoimentos ul li a:hover { text-decoration:underline; }
+.eventos_depoimentos span a { color:#F86617; }
+.eventos_depoimentos span a:hover { font-weight:bold; text-decoration:underline; }
+
+#parceiros { width: 100%; margin-top:20px; margin-right:90px; }
+#parceiros h2 { font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; }
+
+.linha_horizontal { height:12px; border-top:1px solid #ccc; margin-top:30px; }
+
+div.img_parceiros{display: inline-block; position: relative; width: 210px; margin: 20px 10px; }
+.maior{height: 150px;}
+.menor{height: 100px;}
+/* /conteudo principal */
+
+/* rodape */
+#rodape 							{ height:250px; background-color:#FDF9E8; margin-top:20px; }
+#conteudo_rodape 					{ height:151px; background-image:url(../imagens/bg_conteudo_rodape.png); }
+#menu_rodape ul						{ margin-left:130px; }
+#menu_rodape ul	li					{ margin-top:40px; }
+#menu_rodape ul	li a				{ padding:0 30px; color:#FF9900; }
+#menu_rodape ul	li a:hover			{ text-decoration:underline; }
+
+#menu_rapido_rodape					{ margin-top:30px; }
+#localizacao						{ margin-left:185px; margin-top:30px; }
+#localizacao span					{ width:280px; margin-top:8px; line-height:20px; }
+.ico_rua, .ico_telefone				{ margin-top:10px;}
+
+
+#contact							{ margin-left:60px; margin-top:30px; }
+#contact span						{ width: 280px; margin-top:8px; line-height:20px; }
+
+#desenvolvido						{ width:200px; margin-left:30px; margin-top:30px; }
+#desenvolvido p						{ margin-top:8px; line-height:20px; }
+
+#copyright 							{ height:30px; text-align:center; background-color:#0066CC; }
+#copyright p 						{ color:#fff; padding-top:8px; }
+/* /rodape */
+
+
+/* PAGINAS INTERNAS ************************************************************** */
+
+/* QUEM SOMOS */
+#titulo { margin-left:30px; }
+#titulo h1 { margin:10px 0; font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; }
+#titulo p  { width:400px; color:#666666; margin-right:50px; text-align:justify; line-height:18px; }
+#valores p { line-height:18px; }
+/* /QUEM SOMOS */
+
+/* COMO AJUDAR */
+#comoajudar 	{ width:420px; margin:10px 0 0 0; }
+#comoajudar h1 	{ margin:10px 0; font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; }
+#comoajudar p 	{ width:400px; color:#666666; margin-right:50px; text-align:justify; line-height:18px; margin-bottom:18px; }
+#comoajudar a 	{ color:#F86617;}
+#comoajudar a:hover 	{ text-decoration:underline; font-weight:bold; }
+
+#conta_bancaria { margin:10px 0 0 70px; }
+#conta_bancaria h1 { margin:10px 0; font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; color:#990033; }
+#conta_bancaria span { text-transform:uppercase; color:#000; padding:2px 5px 0 0; }
+
+#faca_crianca_feliz p { font-family:"Comic Sans MS"; font-size:18px; color:#000066; text-align:center; }
+/* /COMO AJUDAR */
+
+/* DEPOIMENTOS */
+#depoimentos { width:850px; margin:10px 0 0 0; }
+#depoimentos h2 { font-size:16px; color:green; }
+#depoimentos p { margin:8px 0 10px 0; background-color:#f0f6fa; border:1px solid #CCCCCC; padding:10px; text-align:justify; }
+/* /DEPOIMENTOS */
+
+
+/* FOTOS */
+#fotos { width:500px; }
+#fotos h1 { font-family: "Courgette", cursive, Arial, Helvetica, sans-serif; }
+#fotos p { background-color:#f0f6fa; padding:10px; border:1px solid #CCCCCC; }
+.img_presidente { padding:5px; margin-right:10px; border:1px solid #ccc; background-color:#FFFFFF; }
+#discurso { width:880px; background-color:#f0f6fa; padding:10px; border:1px solid #CCCCCC; margin-top:15px; text-align:justify; line-height:18px; }
+/* /FOTOS */
+
+/* CONTATO */
+#contato { width:420px; margin:10px 0 0 0; }
+#contato h1 { font-family: "Courgette", cursive; }
+#contato_tel p { line-height:32px; }
+#contato_informacoes { width:470px; height:auto; margin:35px 0 12px 45px; border-left:1px dashed #CCC; padding-left: 40px; }
+#contato_informacoes  h2 { color:#666666; }
+#contato_informacoes  p { line-height:28px; }
+#contato_informacoes span { margin-top:12px; }
+.btn_enviar { cursor: pointer; width:85px; height:38px; color:#fff; border:0; float:left; background-color:#CC6633; padding:8px 15px; }
+/* /CONTATO */
+
+/* EQUIPE */
+#equipe { width:960px; }
+#equipe h3 { font-size:18px;}
+.nossa_equipe p { text-align:center; margin-top:12px; color:#000; }
+.nossa_equipe .img { text-align:center; }
+#palavraPresidente { padding: 10px 0px;}
+#palavraPresidente h2 {margin: 10px 0px;}
+#palavraPresidente div h3 {text-align: justify; font-weight: normal; margin-top: 15px;}
+#palavraPresidente div#txtPresidente {width: 765px;float: right;}
+#palavraPresidente div#presidente {float: left;}
+#palavraPresidente p {text-align: right; margin: 5px; font-weight: bold;}
+/* /EQUIPE */
+
+/* FORMULARIO*/ 
+#conteudo_faleconosco { width:960px; } 
+
+form#formulario {
+	margin-top:30px;
+	background-color:#FFFFF;	
+}
+
+form#formulario label {
+	color:#666666;
+}
+
+form#formulario input, form#formulario textarea {
+	width: 400px;
+	border-bottom: 1px dashed #CC6633;
+	background:fff;
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 0;	
+}
+
+form#formulario textarea{height:200px;}
+/* /FORMULARIO*/ 
+
+/* NECESSIDADES */
+.ver_mais { font-weight:bold; background-color:#0066CC; color:#FFF; text-align:center; cursor:pointer; padding:30px; }
+#necessidades h2 { color: green; font-size: 16px; padding-bottom:10px; }
+#tb_nec { margin-top:10px; }
+table td { padding:10px; text-transform:uppercase; font-size:12px; font-weight:bold; color:#333; }
+.ver mais h3 { font-size:16px; color:#FFF; }
+/* /NECESSIDADES */
+
+
+/* Parceiros hover*/
+
+#cinza1 {
+    background-image: url(../imagens/parceiros/1_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza2 {
+    background-image: url(../imagens/parceiros/2_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza3 {
+    background-image: url(../imagens/parceiros/3_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza4 {
+    background-image: url(../imagens/parceiros/4_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza5 {
+    background-image: url(../imagens/parceiros/5_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza6 {
+    background-image: url(../imagens/parceiros/6_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza7 {
+    background-image: url(../imagens/parceiros/7_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza8{
+    background-image: url(../imagens/parceiros/8_cinza.png);
+    background-repeat: no-repeat;
+}
+
+#cinza1:hover {
+    background-image: url(../imagens/parceiros/1.png)
+}
+
+#cinza2:hover {
+    background-image: url(../imagens/parceiros/2.png)
+}
+
+#cinza3:hover {
+    background-image: url(../imagens/parceiros/3.png)
+}
+
+#cinza4:hover {
+    background-image: url(../imagens/parceiros/4.png)
+}
+
+#cinza5:hover {
+    background-image: url(../imagens/parceiros/5.png)
+}
+
+#cinza6:hover {
+    background-image: url(../imagens/parceiros/6.png)
+}
+
+#cinza7:hover {
+    background-image: url(../imagens/parceiros/7.png)
+}
+
+#cinza8:hover {
+    background-image: url(../imagens/parceiros/8.png)
+}
+
+#mapaContatos {
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    width: 470px;
+    height: 400px;
+    border: 7px solid #333; 
+}
+
+#mapa {
+    width:100%;
+}
+
+/* /PAGINAS INTERNAS ************************************************************** */
