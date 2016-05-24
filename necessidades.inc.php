@@ -23,44 +23,24 @@
                     <td>40</td>
                     <td>Litros</td>
                 </tr>
-                <tr style="background-color:#CCC">
-                    <td>Açucar</td>
-                    <td>120</td>
-                    <td>Quilos</td>
-                </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Arroz</td>
                     <td>264</td>
                     <td>Quilos</td>
                 </tr> 
-                <tr style="background-color:#CCC">
-                    <td>Feijão</td>
-                    <td>112</td>
-                    <td>Quilos</td>
-                </tr> 
-                <tr style="background-color:#999;">
-                    <td>Macarrão</td>
-                    <td>164</td>
-                    <td>500 gr</td>
-                </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Ovos bandeija</td>
                     <td>70</td>
                     <td>Duzias</td>
                 </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Milho verde</td>
                     <td>30</td>
                     <td>Latas</td>
                 </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Farinha de Trigo</td>
                     <td>40</td>
-                    <td>Quilos</td>
-                </tr> 
-                <tr style="background-color:#999;">
-                    <td>Farinha de Mandioca</td>
-                    <td>24</td>
                     <td>Quilos</td>
                 </tr> 
                 <tr style="background-color:#CCC">
@@ -112,61 +92,51 @@
                     <td>100</td>
                     <td>Pacotes</td>
                 </tr>
-                <tr style="background-color:#CCC">
-                    <td>Cuzcuz</td>
-                    <td>200</td>
-                    <td>500 gr</td>
-                </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Café</td>
                     <td>48</td>
                     <td>250 gr</td>
                 </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Achocolatado</td>
                     <td>60</td>
                     <td>400 gr</td>
                 </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Biscoito Doce</td>
                     <td>100</td>
                     <td>Pacotes</td>
                 </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Nutriday / Mucilon</td>
                     <td>30</td>
                     <td>Pacotes 400 gr</td>
                 </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Margarina</td>
                     <td>72</td>
                     <td>500 gr</td>
                 </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Mucilon</td>
                     <td>20</td>
                     <td>Pacotes 400 gr</td>
                 </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Aveia</td>
                     <td>32</td>
                     <td>Caixas</td>
                 </tr> 
-                <tr style="background-color:#CCC">
+                <tr style="background-color:#999">
                     <td>Cremogema (ou Similares)</td>
                     <td>30</td>
                     <td>Caixas 250 gr</td>
                 </tr> 
-                <tr style="background-color:#999;">
+                <tr style="background-color:#CCC;">
                     <td>Leite</td>
                     <td>400</td>
                     <td>Litros</td>
-                </tr> 
-                <tr style="background-color:#CCC">
-                    <td>Fecula de mandioca p/ tapioca</td>
-                    <td>60</td>
-                    <td>Caixinhas</td>
-                </tr> 
+                </tr>
                 <tr style="background-color:#999;">
                     <td>Maizena</td>
                     <td>20</td>

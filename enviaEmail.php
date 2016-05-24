@@ -1,7 +1,7 @@
 <?php
 session_start();
 //class para validação
-require("./utilClass.php");
+require("utilClass.php");
 
 // Recebendo os dados passados pela página "faleconosco.php"
 $recebe_nome       = $_SESSION['faleconosco']['nome']		= $u->validar($_POST['nome'],"string","nome","post");
@@ -35,7 +35,7 @@ if(!($recebe_nome && $recebe_telefax && $recebe_email && $recebe_assunto && $rec
 unset($_SESSION['faleconosco']);
 
 // Definindo os cabeçalhos do e-mail
-$headers  = "MIME-Version: 1.0\n"; 
+$headers  = "MIME-Version: 1.1\n"; 
 $headers .= "Content-type:text/html; charset=utf-8\n"; //"Content-type:text/html; charset=iso-8859-1\n";
 $headers .= "From:$recebe_nome\n";
 
