@@ -32,7 +32,45 @@
             - E doando algo da tabela de necessidades.</p>
         <a href="?conteudo=necessidades">Clique aqui para ver a tabela de necessidades</a>
         </div>
-        
+        <br><br>
+        <h3>Fazer doação única através do PagSeguro:</h3><br>
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+        <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html?iot=button" method="post">
+        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+        <input type="hidden" name="currency" value="BRL" />
+        <input type="hidden" name="receiverEmail" value="ivone@lardavis.org.br" />
+        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/205x30-doar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+        <br><br>
+        <h3>Seja nosso parceiro:</h3>
+        Assinatura 12xR$100,00:
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+            <input type="hidden" name="code" value="13F7E78B818197ADD453CFBA9D3E5417" />
+            <input type="hidden" name="iot" value="button" />
+            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-assinar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+        <br>Assinatura 12xR$200,00:
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+            <input type="hidden" name="code" value="1E546E530505FF5AA4A3FFB568F02537" />
+            <input type="hidden" name="iot" value="button" />
+            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-assinar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+        <br>Assinatura 12xR$350,00:
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+            <input type="hidden" name="code" value="223CCF330C0C7DD4440B8FBB7693DBC0" />
+            <input type="hidden" name="iot" value="button" />
+            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-contratar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
     </div>
 
     <div id="conta_bancaria" class="float_left">
@@ -42,8 +80,8 @@
         <h3>Público alvo: </h3>Adolescentes de 12 a 17 anos.
         <h3>Atividades: </h3>Reforço escolar, esporte, música,cursos profissionalizantes e lazer. 
         <br><br>
-        <h3>Decolar nos estudos</h3><br>
-        12 parcelas de R$ 50,00 ou R$ 600,00 a vista.<br>
+        <h3>Decolar nos estudos</h3>
+        12 parcelas de R$ 50,00.<br><br>
         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
         <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html?iot=button" method="post">
             <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
@@ -53,8 +91,8 @@
         <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
         <br>
-        <h3>Decolar nos esportes</h3><br>
-        12 parcelas de R$ 30,00 ou R$ 360,00 a vista.<br>
+        <h3>Decolar nos esportes</h3>
+        12 parcelas de R$ 30,00.<br><br>
         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
         <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html?iot=button" method="post">
             <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
@@ -65,8 +103,8 @@
 
 
         <br>
-        <h3>Decolar no lazer</h3><br>
-        12 parcelas de R$ 20,00 ou R$ 240,00 a vista.<br>
+        <h3>Decolar no lazer</h3>
+        12 parcelas de R$ 20,00.<br><br>
         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
         <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html?iot=button" method="post">
             <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
@@ -77,8 +115,8 @@
 
 
         <br>
-        <h3>Decolar completo</h3><br>
-        12 parcelas de R$ 100,00.
+        <h3>Decolar completo</h3>
+        12 parcelas de R$ 100,00.<br><br>
         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
         <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html?iot=button" method="post">
             <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
