@@ -6,8 +6,9 @@
             <img src="imagens/familia2.png" alt="Lar Davis" />
         </div>
     	
-        <div id="video_principal" class="float_right">    		
-            <iframe width="400" height="250" src="//www.youtube.com/embed/6VDZ_w-eriA?rel=0" frameborder="0" allowfullscreen></iframe>
+        <div id="video_principal" class="float_right">
+            <iframe width="400" height="250" src="https://www.youtube.com/embed/RgX0cdSDUaI" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe width="400" height="250" src="//www.youtube.com/embed/6VDZ_w-eriA?rel=0" frameborder="0" allowfullscreen></iframe>-->
         </div>
     </div>
     
@@ -65,7 +66,7 @@
                 <div id="video_miniatura">
                     <iframe width="250" height="170" src="//www.youtube.com/embed/6VDZ_w-eriA?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div><br />
-                <span><a href="#">Veja mais videos</a></span>	
+                <span><a class="videos <?php echo ($conteudo === "videos") ? "hover" : ""; ?>" href="?conteudo=videos">Veja mais videos</a></span>
 		</div>
                                 
 		<div class="eventos_depoimentos float_left" style="margin-left:70px;">
