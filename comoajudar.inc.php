@@ -44,7 +44,28 @@
         <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
         <br><br>
         <h3>Seja nosso parceiro:</h3>
-        Assinatura 12xR$100,00:
+        <br>Assinatura 12xR$60,00:
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+            <input type="hidden" name="code" value="090025CFCECE086994E62FA0C48B1F97" />
+            <input type="hidden" name="iot" value="button" />
+            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-assinar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+
+        <!-- INICIO FORMULARIO BOTAO PAGSEGURO
+        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO
+            <input type="hidden" name="code" value="223CCF330C0C7DD4440B8FBB7693DBC0" />
+            <input type="hidden" name="iot" value="button" />
+            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-contratar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+         FINAL FORMULARIO BOTAO PAGSEGURO -->
+
+
+        <br>Assinatura 12xR$100,00:
         <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
         <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
             <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
@@ -62,15 +83,7 @@
             <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-assinar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
         </form>
         <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-        <br>Assinatura 12xR$350,00:
-        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-        <form action="https://pagseguro.uol.com.br/pre-approvals/request.html" method="post">
-            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-            <input type="hidden" name="code" value="223CCF330C0C7DD4440B8FBB7693DBC0" />
-            <input type="hidden" name="iot" value="button" />
-            <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/assinaturas/205x30-contratar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-        </form>
-        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+
     </div>
 
     <div id="conta_bancaria" class="float_left">

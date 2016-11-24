@@ -203,7 +203,7 @@
         <div class="indice">
         	<div class="ver_mais">
             <tr>
-                <td style="font-weight:bold; background-color:#999; color:#FFF; text-align:center; cursor:pointer" colspan="3"><h4>Material de Higiêne Pessoal</h4></td>
+                <td style="font-weight:bold; background-color:#999; color:#FFF; text-align:center; cursor:pointer" colspan="3"><h4>Material de Higiene Pessoal</h4></td>
             </tr>
             </div>
             
