@@ -48,6 +48,8 @@
         <div id="cinza7" class="img_parceiros menor"></div>
         
         <div id="cinza8" class="img_parceiros menor"></div>
+
+        <div id="cinza9" class="img_parceiros menor"></div>
     </div>       
      	
 
